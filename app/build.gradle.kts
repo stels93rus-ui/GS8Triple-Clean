@@ -6,7 +6,9 @@ plugins {
 android {
     namespace = "ru.gs8triple"
     compileSdk = 35
-
+buildFeatures {
+    aidl = true
+}
     defaultConfig {
         applicationId = "ru.gs8triple"
         minSdk = 28
